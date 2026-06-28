@@ -1,0 +1,86 @@
+.widget-card {
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.widget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.widget-title {
+    font-weight: 600;
+    color: #f8fafc;
+}
+
+.widget-actions button {
+    color: #475569;
+    padding: 4px 6px;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.widget-actions button:hover {
+    color: #f43f5e;
+    background: rgba(244, 63, 94, 0.1);
+}
+
+.widget-timer-display {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #38bdf8;
+    text-align: center;
+    padding: 10px;
+}
+
+.widget-timer-controls {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.widget-timer-btn {
+    padding: 6px 16px;
+    border-radius: 6px;
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.widget-quote {
+    font-style: italic;
+    color: #e2e8f0;
+    padding: 8px 0;
+}
+
+.widget-quote-author {
+    margin-top: 8px;
+    font-style: normal;
+    color: #94a3b8;
+    font-weight: 600;
+}
+
+.widget-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.widget-weather-temp {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #f8fafc;
+}
+
+.widget-weather-desc {
+    color: #94a3b8;
+}
